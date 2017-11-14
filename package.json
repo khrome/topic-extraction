@@ -1,0 +1,36 @@
+{
+    "name": "topic-extraction",
+    "homepage": "https://github.com/khrome/topic-extraction",
+    "version": "0.0.1-alpha",
+    "main": "topics.js",
+    "description": "Topic extraction for text bodies",
+    "keywords": [
+    ],
+    "author": "Abbey Hawk Sparrow <@khrome> (http://patternweaver.com)",
+    "contributors": [],
+    "bugs": {
+        "url": "https://github.com/khrome/topic-extraction/issues"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/khrome/topic-extraction.git"
+    },
+    "dependencies": {
+        "cycada": "*",
+        "stopword": "*",
+        "strangler": "*",
+        "metaphone": "*",
+        "concepts-parser": "*",
+        "async-arrays": "*",
+        "extended-emitter": "*"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*"
+    },
+    "optionalDependencies": {},
+    "engines": {
+        "node": "*"
+    }
+}
